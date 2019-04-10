@@ -1,0 +1,16 @@
+{
+  "name": "backend-star-wars-app",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "backpack"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "backpack-core": "^0.8.3",
+    "graphql": "^14.2.1",
+    "graphql-yoga": "^1.17.4",
+    "react-apollo": "^2.5.4"
+  }
+}
+
