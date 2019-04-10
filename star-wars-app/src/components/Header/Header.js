@@ -6,8 +6,8 @@ import HeaderNavItem from "./HeaderNavItem";
 const Header = () => {
   return (
     <div className="header-container">
-      <HeaderNavItem label="List" to="/" />
-      <HeaderNavItem label="Detail" to="/detail" />
+      <HeaderNavItem label="Episode list" to="/" />
+      <HeaderNavItem label="Episode detail" to="/episode-detail" />
     </div>
   );
 };
