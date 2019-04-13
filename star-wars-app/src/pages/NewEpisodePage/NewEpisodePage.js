@@ -9,8 +9,6 @@ class NewEpisodePage extends Component {
     return (
       <Mutation mutation={addEpisodeMutation}>
         {(addEpisodeMutation, { data, loading }) => {
-          console.log(data);
-
           return (
             <div>
               <h1>Add new episode</h1>
