@@ -1,0 +1,26 @@
+.list-item-wrapper {
+  height: 350px;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.list-item-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.list-item-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.list-item-button-wrapper {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}

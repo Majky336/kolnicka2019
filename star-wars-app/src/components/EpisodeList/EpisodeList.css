@@ -1,0 +1,14 @@
+.episode-list-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.episode-list-section :hover {
+  background: black;
+  color: white;
+}
+
+.episode-list-section :hover > a {
+  color: white;
+  border-bottom: 0.1px solid white;
+}
