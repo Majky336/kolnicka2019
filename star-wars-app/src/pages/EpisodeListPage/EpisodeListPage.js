@@ -8,8 +8,6 @@ import Button from "../../components/common/Button";
 
 class EpisodeListPage extends Component {
   render() {
-    const { history } = this.props;
-
     return (
       <div>
         <Query query={fetchEpisodeList}>
@@ -24,9 +22,7 @@ class EpisodeListPage extends Component {
 
             const { getEpisodeList } = data || {};
 
-            return (
-              <EpisodeList episodeList={getEpisodeList} history={history} />
-            );
+            return <EpisodeList episodeList={getEpisodeList} />;
           }}
         </Query>
         <Button label="Create new episode" to="/new-episode" />
